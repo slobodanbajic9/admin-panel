@@ -10,6 +10,12 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.4",
+    "@tanstack/react-query": "^5.50.1",
+    "@trpc/client": "^11.0.0-rc.452",
+    "@trpc/next": "^11.0.0-rc.452",
+    "@trpc/react-query": "^11.0.0-rc.452",
+    "@trpc/server": "^11.0.0-rc.452",
+    "bcrypt-ts": "^5.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
@@ -19,7 +25,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",

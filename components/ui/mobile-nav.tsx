@@ -2,16 +2,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Button } from "./button";
-import { Badge } from "./badge";
-import {
-  Menu,
-  Home,
-  LineChart,
-  Package,
-  Package2,
-  ShoppingCart,
-  Users,
-} from "lucide-react";
+import { Menu } from "lucide-react";
 import {
   Card,
   CardContent,
